@@ -1,0 +1,19 @@
+<dependencies>
+  <compile
+      roots="/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release">
+    <dependency
+        name="/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release,__local_aars__:/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar,/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

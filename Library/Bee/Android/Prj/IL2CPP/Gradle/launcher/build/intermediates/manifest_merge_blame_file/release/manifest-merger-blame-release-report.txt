@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.com.Unity.CreateWithVR.VRRoom"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:106-134
+18
+19    <uses-feature
+19-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-12:35
+20        android:name="android.hardware.vulkan.version"
+20-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-55
+21        android:required="true" />
+21-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-32
+22    <uses-feature
+22-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-15:36
+23        android:name="android.hardware.touchscreen"
+23-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-52
+24        android:required="false" />
+24-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-33
+25    <uses-feature
+25-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen.multitouch"
+26-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-63
+27        android:required="false" />
+27-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch.distinct"
+29-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-72
+30        android:required="false" />
+30-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-12:31
+32        android:name="android.hardware.vr.headtracking"
+32-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-56
+33        android:required="true"
+33-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-32
+34        android:version="1" />
+34-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-28
+35
+36    <application
+36-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+37        android:extractNativeLibs="true"
+37-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:18-50
+38        android:icon="@mipmap/app_icon"
+38-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:49-80
+39        android:label="@string/app_name" >
+39-->/Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-48
+40        <meta-data
+40-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-26:33
+41            android:name="unity.splash-mode"
+41-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-45
+42            android:value="0" />
+42-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-30
+43        <meta-data
+43-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:9-29:36
+44            android:name="unity.splash-enable"
+44-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-47
+45            android:value="True" />
+45-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-33
+46        <meta-data
+46-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:9-32:36
+47            android:name="unity.launch-fullscreen"
+47-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-51
+48            android:value="True" />
+48-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-33
+49        <meta-data
+49-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:9-35:36
+50            android:name="unity.render-outside-safearea"
+50-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-57
+51            android:value="True" />
+51-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-33
+52        <meta-data
+52-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:9-38:50
+53            android:name="notch.config"
+53-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-40
+54            android:value="portrait|landscape" />
+54-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+55        <meta-data
+55-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:9-41:36
+56            android:name="unity.auto-report-fully-drawn"
+56-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-57
+57            android:value="true" />
+57-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-33
+58
+59        <activity
+59-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-66:20
+60            android:name="com.unity3d.player.UnityPlayerActivity"
+60-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-66
+61            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+61-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-194
+62            android:exported="true"
+62-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-36
+63            android:hardwareAccelerated="false"
+63-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-48
+64            android:launchMode="singleTask"
+64-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:48:13-44
+65            android:resizeableActivity="false"
+65-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-47
+66            android:screenOrientation="fullUser"
+66-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:50:13-49
+67            android:theme="@style/UnityThemeSelector" >
+67-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:51:13-54
+68            <intent-filter>
+68-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:52:13-58:29
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:53:17-77
+69-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:53:27-74
+70
+71                <action android:name="android.intent.action.MAIN" />
+71-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:55:17-69
+71-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:55:25-66
+72
+73                <category android:name="com.oculus.intent.category.VR" />
+73-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:57:17-74
+73-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:57:27-71
+74            </intent-filter>
+75
+76            <meta-data
+76-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:60:13-62:40
+77                android:name="unityplayer.UnityActivity"
+77-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:61:17-57
+78                android:value="true" />
+78-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:62:17-37
+79            <meta-data
+79-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:63:13-65:40
+80                android:name="notch_support"
+80-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:64:17-45
+81                android:value="true" />
+81-->[:unityLibrary] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/release/AndroidManifest.xml:65:17-37
+82            <meta-data
+82-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:40
+83                android:name="com.oculus.vr.focusaware"
+83-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-56
+84                android:value="true" />
+84-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-37
+85        </activity>
+86
+87        <meta-data
+87-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-23:52
+88            android:name="com.oculus.supportedDevices"
+88-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-55
+89            android:value="quest|quest2|cambria" />
+89-->[:unityLibrary:xrmanifest.androidlib] /Users/sophiaholzl/Documents/6. Semester/BA2_Project/VR Room/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-49
+90    </application>
+91
+92</manifest>
