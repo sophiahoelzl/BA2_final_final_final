@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Apple
     - Backpack
     - Banane
+    - Blackboard
     - Book
     - Bottle
     - Calculator
@@ -24,6 +25,7 @@ ScriptsOnlyBuild:
     - Notebook
     - Pen
     - Scissors
+    - ShowKeyboard
     - Sink
     - Soap
     - Stephan
@@ -182,7 +184,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.Text
@@ -259,9 +260,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
-    - UnityEngine.UI.InputField/EndEditEvent
-    - UnityEngine.UI.InputField/OnChangeEvent
-    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
@@ -981,9 +979,6 @@ ScriptsOnlyBuild:
     fullTypeName: Notebook
     methodName: CloseSpanishNotebookText
   - assembly: Assembly-CSharp
-    fullTypeName: Microsoft.MixedReality.Toolkit.Experimental.UI.NonNativeKeyboard
-    methodName: ShowAlphaKeyboard
-  - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: ShowSpanishNotebookText
   - assembly: Assembly-CSharp
@@ -1188,8 +1183,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19428}
     - Class: 114
-      Script: {instanceID: 20038}
-    - Class: 114
       Script: {instanceID: 21388}
     - Class: 114
       Script: {instanceID: 21610}
@@ -1357,6 +1350,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1736848}
     - Class: 114
       Script: {instanceID: 1736852}
+    - Class: 114
+      Script: {instanceID: 2081162}
+    - Class: 114
+      Script: {instanceID: 2252210}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -3974,6 +3971,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.UI
     className: SymbolDisableHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: f2293e063574d4e66e99dd7cbfc4571b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Blackboard
+  - hash:
+      serializedVersion: 2
+      Hash: badaad7125443ca594e7e93cfd128476
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShowKeyboard
   platform: 13
   scenePathNames:
   - Assets/Scenes/classroom.unity

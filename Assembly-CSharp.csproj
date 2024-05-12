@@ -76,6 +76,7 @@
     <Compile Include="Assets/MRTK-Keyboard-main/MRTK/SDK/Experimental/NonNativeKeyboard/Scripts/AxisSlider.cs" />
     <Compile Include="Assets/MRTK-Keyboard-main/MRTK/SDK/Experimental/NonNativeKeyboard/Scripts/CapsLockHighlight.cs" />
     <Compile Include="Assets/Scripts/Chair.cs" />
+    <Compile Include="Assets/Scripts/Blackboard.cs" />
     <Compile Include="Assets/MRTK-Keyboard-main/MRTK/SDK/Experimental/NonNativeKeyboard/Scripts/SymbolDisableHighlight.cs" />
     <Compile Include="Assets/Scripts/Clock.cs" />
     <Compile Include="Assets/MRTK-Keyboard-main/MRTK/SDK/Experimental/NonNativeKeyboard/Scripts/KeyboardKeyFunc.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets/Scripts/Soap.cs" />
     <Compile Include="Assets/Assets/gameLogic.cs" />
     <Compile Include="Assets/Scripts/Pen.cs" />
+    <Compile Include="Assets/Scripts/showKeyboard.cs" />
     <Compile Include="Assets/Scripts/Sink.cs" />
     <Compile Include="Assets/Scripts/Eraser.cs" />
     <Compile Include="Assets/Scripts/Stephan.cs" />

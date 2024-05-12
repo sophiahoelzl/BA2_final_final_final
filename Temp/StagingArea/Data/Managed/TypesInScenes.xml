@@ -3,6 +3,7 @@
 		<type fullname="Apple" preserve="nothing"/>
 		<type fullname="Backpack" preserve="nothing"/>
 		<type fullname="Banane" preserve="nothing"/>
+		<type fullname="Blackboard" preserve="nothing"/>
 		<type fullname="Book" preserve="nothing"/>
 		<type fullname="Bottle" preserve="nothing"/>
 		<type fullname="Calculator" preserve="nothing"/>
@@ -23,6 +24,7 @@
 		<type fullname="Notebook" preserve="nothing"/>
 		<type fullname="Pen" preserve="nothing"/>
 		<type fullname="Scissors" preserve="nothing"/>
+		<type fullname="ShowKeyboard" preserve="nothing"/>
 		<type fullname="Sink" preserve="nothing"/>
 		<type fullname="Soap" preserve="nothing"/>
 		<type fullname="Stephan" preserve="nothing"/>
@@ -211,7 +213,6 @@
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.InputField" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.RectMask2D" preserve="nothing"/>

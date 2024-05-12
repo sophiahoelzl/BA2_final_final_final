@@ -186,9 +186,6 @@
 			<method name="ShowSpanishLaptopText"/>
 			<method name="ShowSpanishLaptopText"/>
 		</type>
-		<type fullname="Microsoft.MixedReality.Toolkit.Experimental.UI.NonNativeKeyboard">
-			<method name="ShowAlphaKeyboard"/>
-		</type>
 		<type fullname="Mirror">
 			<method name="CloseSpanishMirrorText"/>
 			<method name="ShowSpanishMirrorText"/>
