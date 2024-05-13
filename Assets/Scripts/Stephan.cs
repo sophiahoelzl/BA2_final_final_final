@@ -14,6 +14,8 @@ public class Stephan : MonoBehaviour
     public Text button_text;
     public Text text;
 
+    Blackboard blackboard = new Blackboard();
+
  
     public void showText()
     {
@@ -33,7 +35,7 @@ public class Stephan : MonoBehaviour
     {
         text.text = "Look around, interact and explore with objects in this classroom in spanish!                       For further instructions look at the blackboard";
         button_text.text = "Got it!";
-        StartCoroutine(HideAndShow(2.0f) );
+        StartCoroutine(HideAndShow(2.0f));
         cube_1.SetActive(false);
     }
 

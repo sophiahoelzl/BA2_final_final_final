@@ -92,9 +92,6 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
-    - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
-    - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
@@ -402,9 +399,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Clock
     methodName: CloseSpanishClockText
-  - assembly: Assembly-CSharp
-    fullTypeName: Blackboard
-    methodName: closeHelpCanvas
   - assembly: Assembly-CSharp
     fullTypeName: Scissors
     methodName: ShowSpanishScissorsText
@@ -730,9 +724,6 @@ ScriptsOnlyBuild:
     fullTypeName: Calculator
     methodName: CloseSpanishCalculatorText
   - assembly: Assembly-CSharp
-    fullTypeName: Blackboard
-    methodName: closeHelpCanvas
-  - assembly: Assembly-CSharp
     fullTypeName: Apple
     methodName: ShowSpanishAppleText
   - assembly: Assembly-CSharp
@@ -987,6 +978,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Stephan
     methodName: closeText
+  - assembly: Assembly-CSharp
+    fullTypeName: Blackboard
+    methodName: setBlackboard
   - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: ShowSpanishLaptopText
@@ -2869,7 +2863,7 @@ ScriptsOnlyBuild:
     className: SplitToning
   - hash:
       serializedVersion: 2
-      Hash: 76f116f370148d1e42f2c8ad9d2c6fd1
+      Hash: 140017ccca81a08c7df48dc4e862843c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Blackboard
