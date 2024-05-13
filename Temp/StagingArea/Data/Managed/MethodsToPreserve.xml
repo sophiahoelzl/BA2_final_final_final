@@ -62,6 +62,11 @@
 			<method name="ShowSpanishBananeText"/>
 			<method name="ShowSpanishBananeText"/>
 		</type>
+		<type fullname="Blackboard">
+			<method name="checkAnswer"/>
+			<method name="closeHelpCanvas"/>
+			<method name="closeHelpCanvas"/>
+		</type>
 		<type fullname="Book">
 			<method name="CloseSpanishBookText"/>
 			<method name="CloseSpanishBookText"/>
@@ -178,6 +183,8 @@
 			<method name="CloseSpanishLaptopText"/>
 			<method name="CloseSpanishLaptopText"/>
 			<method name="CloseSpanishLaptopText"/>
+			<method name="CloseSpanishLaptopText"/>
+			<method name="ShowSpanishLaptopText"/>
 			<method name="ShowSpanishLaptopText"/>
 			<method name="ShowSpanishLaptopText"/>
 			<method name="ShowSpanishLaptopText"/>

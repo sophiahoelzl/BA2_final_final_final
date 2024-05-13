@@ -98,6 +98,8 @@
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.CharacterControllerDriver" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.Hands.HandExpressionCapture" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulator" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.LocomotionSystem" preserve="nothing"/>
@@ -108,6 +110,11 @@
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRRayInteractor" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRSimpleInteractable" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRDeviceSimulatorControllerUI" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRDeviceSimulatorHandsUI" preserve="nothing"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRDeviceSimulatorUI" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.Interaction.Toolkit.Samples.StarterAssets">
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider" preserve="nothing"/>
@@ -169,6 +176,7 @@
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.CharacterController" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>

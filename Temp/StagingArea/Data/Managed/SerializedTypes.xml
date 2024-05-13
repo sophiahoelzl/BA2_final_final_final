@@ -49,6 +49,7 @@
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.FocusExitEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.HoverEnterEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.HoverExitEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulator/SimulatedHandExpression" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.InteractionLayerMask" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.SelectEnterEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.SelectExitEvent" preserve="nothing" serialized="true"/>
@@ -57,6 +58,9 @@
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractableEvent" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.XR.Interaction.Toolkit.XRInteractorEvent" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.DeviceSimulator.XRDeviceSimulatorHandsUI/HandExpressionUI" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Unity.XR.OpenXR.Features.MetaQuestSupport">
 		<type fullname="UnityEngine.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeature/TargetDevice" preserve="nothing" serialized="true"/>
 	</assembly>
@@ -64,6 +68,7 @@
 		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Pose" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="UnityEngine.TextCoreFontEngineModule">

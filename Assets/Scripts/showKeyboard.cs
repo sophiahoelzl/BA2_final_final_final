@@ -19,6 +19,6 @@ public class ShowKeyboard : MonoBehaviour
     public void OpenKeyboard()
     {
         NonNativeKeyboard.Instance.InputField = inputField;
-        NonNativeKeyboard.Instance.PresentKeyboard(inputField.text);
+        NonNativeKeyboard.Instance.PresentKeyboard();
     }
 }
