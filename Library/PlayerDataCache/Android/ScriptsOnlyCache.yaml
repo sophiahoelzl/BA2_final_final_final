@@ -10,7 +10,10 @@ ScriptsOnlyBuild:
     - Calculator
     - CityPeople.CityPeople
     - Clock
+    - ColorGamelogic
+    - Colors
     - Cup
+    - Door
     - Eraser
     - Laptop
     - Microsoft.MixedReality.Toolkit.Experimental.UI.AxisSlider
@@ -23,6 +26,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.Experimental.UI.UICollection
     - Mirror
     - Notebook
+    - Paintbrush
+    - Painting
     - Pen
     - Scissors
     - ShowKeyboard
@@ -92,6 +97,9 @@ ScriptsOnlyBuild:
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
@@ -131,9 +139,9 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
     - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRSimpleInteractable
+    - UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
@@ -340,6 +348,9 @@ ScriptsOnlyBuild:
     fullTypeName: Stephan
     methodName: changeText
   - assembly: Assembly-CSharp
+    fullTypeName: ColorGamelogic
+    methodName: setQuestion
+  - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: ShowSpanishLaptopText
   - assembly: Assembly-CSharp
@@ -399,6 +410,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Clock
     methodName: CloseSpanishClockText
+  - assembly: Assembly-CSharp
+    fullTypeName: Door
+    methodName: ShowSpanishDoorText
+  - assembly: Assembly-CSharp
+    fullTypeName: Door
+    methodName: CloseSpanishDoorText
   - assembly: Assembly-CSharp
     fullTypeName: Scissors
     methodName: ShowSpanishScissorsText
@@ -592,6 +609,12 @@ ScriptsOnlyBuild:
     fullTypeName: Calculator
     methodName: CloseSpanishCalculatorText
   - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ShowWhite
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: CloseWhite
+  - assembly: Assembly-CSharp
     fullTypeName: Bottle
     methodName: ShowSpanishBottleText
   - assembly: Assembly-CSharp
@@ -651,6 +674,36 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: CloseSpanishLaptopText
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ShowBlue
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: CloseBlue
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ShowOrange
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: CloseOrange
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ShowPurple
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ClosePurple
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ShowRed
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: CloseRed
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ShowYellow
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: CloseYellow
   - assembly: Assembly-CSharp
     fullTypeName: Eraser
     methodName: ShowSpanishEraserText
@@ -736,6 +789,18 @@ ScriptsOnlyBuild:
     fullTypeName: Apple
     methodName: CloseSpanishAppleText
   - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: ShowSpanishPaintingText
+  - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: CloseSpanishPaintingText
+  - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: ShowSpanishPaintingText
+  - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: CloseSpanishPaintingText
+  - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: ShowSpanishNotebookText
   - assembly: Assembly-CSharp
@@ -778,6 +843,18 @@ ScriptsOnlyBuild:
     fullTypeName: Laptop
     methodName: CloseSpanishLaptopText
   - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: ShowSpanishPaintbrushText
+  - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: CloseSpanishPaintbrushText
+  - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: ShowSpanishPaintbrushText
+  - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: CloseSpanishPaintbrushText
+  - assembly: Assembly-CSharp
     fullTypeName: Eraser
     methodName: ShowSpanishEraserText
   - assembly: Assembly-CSharp
@@ -813,6 +890,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: CloseSpanishNotebookText
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: ShowGreen
+  - assembly: Assembly-CSharp
+    fullTypeName: Colors
+    methodName: CloseGreen
   - assembly: Assembly-CSharp
     fullTypeName: Scissors
     methodName: ShowSpanishScissorsText
@@ -904,6 +987,9 @@ ScriptsOnlyBuild:
     fullTypeName: Backpack
     methodName: CloseSpanishBackpackText
   - assembly: Assembly-CSharp
+    fullTypeName: ColorGamelogic
+    methodName: CheckAnswer
+  - assembly: Assembly-CSharp
     fullTypeName: Backpack
     methodName: ShowSpanishBackpackText
   - assembly: Assembly-CSharp
@@ -982,11 +1068,35 @@ ScriptsOnlyBuild:
     fullTypeName: Blackboard
     methodName: setBlackboard
   - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: ShowSpanishPaintingText
+  - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: CloseSpanishPaintingText
+  - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: ShowSpanishPaintingText
+  - assembly: Assembly-CSharp
+    fullTypeName: Painting
+    methodName: CloseSpanishPaintingText
+  - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: ShowSpanishLaptopText
   - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: CloseSpanishLaptopText
+  - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: ShowSpanishPaintbrushText
+  - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: CloseSpanishPaintbrushText
+  - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: ShowSpanishPaintbrushText
+  - assembly: Assembly-CSharp
+    fullTypeName: Paintbrush
+    methodName: CloseSpanishPaintbrushText
   - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: ShowSpanishNotebookText
@@ -1241,153 +1351,165 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20606}
     - Class: 114
-      Script: {instanceID: 20758}
+      Script: {instanceID: 20736}
     - Class: 114
-      Script: {instanceID: 20776}
+      Script: {instanceID: 20760}
     - Class: 114
-      Script: {instanceID: 21276}
+      Script: {instanceID: 20778}
     - Class: 114
-      Script: {instanceID: 21284}
+      Script: {instanceID: 21278}
     - Class: 114
-      Script: {instanceID: 21350}
+      Script: {instanceID: 21286}
     - Class: 114
-      Script: {instanceID: 21380}
+      Script: {instanceID: 21352}
     - Class: 114
-      Script: {instanceID: 21468}
+      Script: {instanceID: 21382}
     - Class: 114
-      Script: {instanceID: 21540}
+      Script: {instanceID: 21470}
     - Class: 114
-      Script: {instanceID: 21544}
+      Script: {instanceID: 21542}
     - Class: 114
-      Script: {instanceID: 21934}
+      Script: {instanceID: 21546}
     - Class: 114
-      Script: {instanceID: 21944}
+      Script: {instanceID: 21936}
     - Class: 114
-      Script: {instanceID: 21998}
+      Script: {instanceID: 21946}
     - Class: 114
-      Script: {instanceID: 22166}
+      Script: {instanceID: 22000}
     - Class: 114
-      Script: {instanceID: 22230}
+      Script: {instanceID: 22168}
     - Class: 114
-      Script: {instanceID: 22550}
+      Script: {instanceID: 22232}
     - Class: 114
-      Script: {instanceID: 22562}
+      Script: {instanceID: 22514}
     - Class: 114
-      Script: {instanceID: 22588}
+      Script: {instanceID: 22554}
     - Class: 114
-      Script: {instanceID: 22858}
+      Script: {instanceID: 22566}
     - Class: 114
-      Script: {instanceID: 22898}
+      Script: {instanceID: 22592}
     - Class: 114
-      Script: {instanceID: 22944}
+      Script: {instanceID: 22862}
     - Class: 114
-      Script: {instanceID: 23038}
+      Script: {instanceID: 22902}
     - Class: 114
-      Script: {instanceID: 23282}
+      Script: {instanceID: 22948}
     - Class: 114
-      Script: {instanceID: 23658}
+      Script: {instanceID: 23042}
     - Class: 114
-      Script: {instanceID: 23938}
+      Script: {instanceID: 23286}
     - Class: 114
-      Script: {instanceID: 24012}
+      Script: {instanceID: 23662}
     - Class: 114
-      Script: {instanceID: 24156}
+      Script: {instanceID: 23942}
     - Class: 114
-      Script: {instanceID: 24164}
+      Script: {instanceID: 24016}
     - Class: 114
-      Script: {instanceID: 24328}
+      Script: {instanceID: 24160}
     - Class: 114
-      Script: {instanceID: 24388}
+      Script: {instanceID: 24168}
     - Class: 114
-      Script: {instanceID: 24554}
+      Script: {instanceID: 24332}
     - Class: 114
-      Script: {instanceID: 24576}
+      Script: {instanceID: 24392}
     - Class: 114
-      Script: {instanceID: 24928}
+      Script: {instanceID: 24558}
     - Class: 114
-      Script: {instanceID: 24962}
+      Script: {instanceID: 24580}
     - Class: 114
-      Script: {instanceID: 25152}
+      Script: {instanceID: 24934}
     - Class: 114
-      Script: {instanceID: 25216}
+      Script: {instanceID: 24968}
     - Class: 114
-      Script: {instanceID: 25284}
+      Script: {instanceID: 25158}
     - Class: 114
-      Script: {instanceID: 25332}
+      Script: {instanceID: 25222}
     - Class: 114
-      Script: {instanceID: 25358}
+      Script: {instanceID: 25290}
     - Class: 114
-      Script: {instanceID: 25438}
+      Script: {instanceID: 25338}
     - Class: 114
-      Script: {instanceID: 25494}
+      Script: {instanceID: 25364}
     - Class: 114
-      Script: {instanceID: 25498}
+      Script: {instanceID: 25444}
     - Class: 114
-      Script: {instanceID: 25636}
+      Script: {instanceID: 25500}
     - Class: 114
-      Script: {instanceID: 25748}
+      Script: {instanceID: 25504}
     - Class: 114
-      Script: {instanceID: 25870}
+      Script: {instanceID: 25642}
     - Class: 114
-      Script: {instanceID: 25892}
+      Script: {instanceID: 25754}
     - Class: 114
-      Script: {instanceID: 26014}
+      Script: {instanceID: 25876}
     - Class: 114
-      Script: {instanceID: 26084}
+      Script: {instanceID: 25898}
     - Class: 114
-      Script: {instanceID: 26146}
+      Script: {instanceID: 26020}
     - Class: 114
-      Script: {instanceID: 26482}
+      Script: {instanceID: 26090}
     - Class: 114
-      Script: {instanceID: 26626}
+      Script: {instanceID: 26152}
     - Class: 114
-      Script: {instanceID: 26774}
+      Script: {instanceID: 26488}
     - Class: 114
-      Script: {instanceID: 26828}
+      Script: {instanceID: 26632}
     - Class: 114
-      Script: {instanceID: 26992}
+      Script: {instanceID: 26780}
     - Class: 114
-      Script: {instanceID: 27044}
+      Script: {instanceID: 26834}
     - Class: 114
-      Script: {instanceID: 27322}
+      Script: {instanceID: 26998}
     - Class: 114
-      Script: {instanceID: 27324}
+      Script: {instanceID: 27020}
     - Class: 114
-      Script: {instanceID: 27632}
+      Script: {instanceID: 27052}
     - Class: 114
-      Script: {instanceID: 27650}
+      Script: {instanceID: 27330}
     - Class: 114
-      Script: {instanceID: 27794}
+      Script: {instanceID: 27332}
     - Class: 114
-      Script: {instanceID: 27864}
+      Script: {instanceID: 27640}
     - Class: 114
-      Script: {instanceID: 27902}
+      Script: {instanceID: 27658}
     - Class: 114
-      Script: {instanceID: 27996}
+      Script: {instanceID: 27738}
     - Class: 114
-      Script: {instanceID: 28144}
+      Script: {instanceID: 27754}
     - Class: 114
-      Script: {instanceID: 28294}
+      Script: {instanceID: 27804}
     - Class: 114
-      Script: {instanceID: 28358}
+      Script: {instanceID: 27874}
     - Class: 114
-      Script: {instanceID: 28406}
+      Script: {instanceID: 27912}
     - Class: 114
-      Script: {instanceID: 28604}
+      Script: {instanceID: 28006}
     - Class: 114
-      Script: {instanceID: 28622}
+      Script: {instanceID: 28154}
     - Class: 114
-      Script: {instanceID: 28628}
+      Script: {instanceID: 28304}
     - Class: 114
-      Script: {instanceID: 29160}
+      Script: {instanceID: 28368}
     - Class: 114
-      Script: {instanceID: 29348}
+      Script: {instanceID: 28416}
     - Class: 114
-      Script: {instanceID: 29414}
+      Script: {instanceID: 28614}
     - Class: 114
-      Script: {instanceID: 29472}
+      Script: {instanceID: 28632}
     - Class: 114
-      Script: {instanceID: 29740}
+      Script: {instanceID: 28638}
+    - Class: 114
+      Script: {instanceID: 29170}
+    - Class: 114
+      Script: {instanceID: 29358}
+    - Class: 114
+      Script: {instanceID: 29424}
+    - Class: 114
+      Script: {instanceID: 29482}
+    - Class: 114
+      Script: {instanceID: 81460}
+    - Class: 114
+      Script: {instanceID: 1005590}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2227,6 +2349,12 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 57cb7edaf805148a6a58d752fd28d1ab
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Door
+  - hash:
+      serializedVersion: 2
       Hash: e8fd74e57e72e8e4ef28792881adb864
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -2525,6 +2653,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
     className: OculusTouchControllerProfile
+  - hash:
+      serializedVersion: 2
+      Hash: badaad7125443ca594e7e93cfd128476
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShowKeyboard
   - hash:
       serializedVersion: 2
       Hash: f774ae0cacb498538b576d2dffcfbc23
@@ -2863,7 +2997,7 @@ ScriptsOnlyBuild:
     className: SplitToning
   - hash:
       serializedVersion: 2
-      Hash: 140017ccca81a08c7df48dc4e862843c
+      Hash: 54d96582944d96552c7e38c1b5056cdb
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Blackboard
@@ -3487,6 +3621,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameInvisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 09245b77db78bd445736e12f9b696771
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Painting
+  - hash:
+      serializedVersion: 2
       Hash: d55992199bd2f5a5502658391cdf8ba7
     assemblyName: Unity.AI.Navigation
     namespaceName: Unity.AI.Navigation
@@ -3617,6 +3757,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives
     className: Vector3AffordanceReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: e77385a4b4cf016877c987165fb05656
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Paintbrush
   - hash:
       serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
@@ -4015,10 +4161,22 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: badaad7125443ca594e7e93cfd128476
+      Hash: e19ba89ab7bb7b38614c1bae007b59b6
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: ShowKeyboard
+    className: Colors
+  - hash:
+      serializedVersion: 2
+      Hash: e2d593b29fb2dc2e97aed6bb4a5171e5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ColorGamelogic
+  - hash:
+      serializedVersion: 2
+      Hash: cde554156b3b1da2f22a6af579b9226b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DetachObjects
   platform: 13
   scenePathNames:
   - Assets/Scenes/classroom.unity
