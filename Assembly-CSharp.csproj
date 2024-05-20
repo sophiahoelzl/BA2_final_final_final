@@ -69,6 +69,7 @@
     <Compile Include="Assets/Scripts/Objects/Paintbrush.cs" />
     <Compile Include="Assets/Assets/AnimateHandOnInput.cs" />
     <Compile Include="Assets/Scripts/Objects/Apple.cs" />
+    <Compile Include="Assets/Scripts/LittleBoy.cs" />
     <Compile Include="Assets/Assets/XRDeviceSimulatorPersist.cs" />
     <Compile Include="Assets/MRTK-Keyboard-main/MRTK/SDK/Experimental/NonNativeKeyboard/Scripts/SymbolKeyboard.cs" />
     <Compile Include="Assets/Assets/bodyCollision.cs" />

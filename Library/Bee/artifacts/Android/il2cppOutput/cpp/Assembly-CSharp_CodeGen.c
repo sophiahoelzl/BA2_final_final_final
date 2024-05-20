@@ -93,6 +93,10 @@ extern void U3CresetGameU3Ed__45_System_Collections_IEnumerator_get_Current_m59B
 extern void DetachObjects_Start_m5DC740760EAF465A770EF9E65316B9C6DAA5C6A5 (void);
 extern void DetachObjects_Update_m203787063E28B1EA5CFF07A1F2B25DFAF2700A1B (void);
 extern void DetachObjects__ctor_mC752AA9E12B1224B5107BE54D4AC3D617792CDA5 (void);
+extern void LittleBoy_Start_m180217BA6F6AE1476845B066AB00B17FFF2D26B7 (void);
+extern void LittleBoy_Update_mF535984AEED1E238AF0E629F1A28B3424F2D7B5A (void);
+extern void LittleBoy_startConvo_m80710F8A3550D03782CE2050904BC4DB38068EBA (void);
+extern void LittleBoy__ctor_m162B34DE8D0DF508723EA1026DD4441A4B389BBB (void);
 extern void Apple_ShowSpanishAppleText_m2A521019294FAB76F4FB8A97DE10861A7BA5AFA9 (void);
 extern void Apple_CloseSpanishAppleText_m0F6B813E5083350EEBCE9D298CB63C8C8AF47553 (void);
 extern void Apple__ctor_m470B2E2F0F8BE1503711117A920744A0B5F4DA87 (void);
@@ -326,7 +330,7 @@ extern void U3CShuffleClipsU3Ed__4_MoveNext_mA2BE8C2F4C2426E04AD50E6E3795B4FE6E3
 extern void U3CShuffleClipsU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCFCC407A4EF78C365B0346B5C7A2CA7F006DB475 (void);
 extern void U3CShuffleClipsU3Ed__4_System_Collections_IEnumerator_Reset_m4B270599C4813507E974002FE6C6EB9506425677 (void);
 extern void U3CShuffleClipsU3Ed__4_System_Collections_IEnumerator_get_Current_m416E4C63A17A425B430C1AC0089E1F7683E09D14 (void);
-static Il2CppMethodPointer s_methodPointers[314] = 
+static Il2CppMethodPointer s_methodPointers[318] = 
 {
 	AnimateHandOnInput_Start_mDFB567101BCB7DCE653AE7E320015E93D3609592,
 	AnimateHandOnInput_Update_mC03CF4BE3804324BBC246D79B71F83B1A8848CDD,
@@ -409,6 +413,10 @@ static Il2CppMethodPointer s_methodPointers[314] =
 	DetachObjects_Start_m5DC740760EAF465A770EF9E65316B9C6DAA5C6A5,
 	DetachObjects_Update_m203787063E28B1EA5CFF07A1F2B25DFAF2700A1B,
 	DetachObjects__ctor_mC752AA9E12B1224B5107BE54D4AC3D617792CDA5,
+	LittleBoy_Start_m180217BA6F6AE1476845B066AB00B17FFF2D26B7,
+	LittleBoy_Update_mF535984AEED1E238AF0E629F1A28B3424F2D7B5A,
+	LittleBoy_startConvo_m80710F8A3550D03782CE2050904BC4DB38068EBA,
+	LittleBoy__ctor_m162B34DE8D0DF508723EA1026DD4441A4B389BBB,
 	Apple_ShowSpanishAppleText_m2A521019294FAB76F4FB8A97DE10861A7BA5AFA9,
 	Apple_CloseSpanishAppleText_m0F6B813E5083350EEBCE9D298CB63C8C8AF47553,
 	Apple__ctor_m470B2E2F0F8BE1503711117A920744A0B5F4DA87,
@@ -643,7 +651,7 @@ static Il2CppMethodPointer s_methodPointers[314] =
 	U3CShuffleClipsU3Ed__4_System_Collections_IEnumerator_Reset_m4B270599C4813507E974002FE6C6EB9506425677,
 	U3CShuffleClipsU3Ed__4_System_Collections_IEnumerator_get_Current_m416E4C63A17A425B430C1AC0089E1F7683E09D14,
 };
-static const int32_t s_InvokerIndices[314] = 
+static const int32_t s_InvokerIndices[318] = 
 {
 	7950,
 	7950,
@@ -723,6 +731,10 @@ static const int32_t s_InvokerIndices[314] =
 	7808,
 	7950,
 	7808,
+	7950,
+	7950,
+	7950,
+	7950,
 	7950,
 	7950,
 	7950,
@@ -964,7 +976,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	314,
+	318,
 	s_methodPointers,
 	0,
 	NULL,

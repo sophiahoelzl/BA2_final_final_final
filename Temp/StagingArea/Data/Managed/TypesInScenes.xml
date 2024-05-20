@@ -15,6 +15,7 @@
 		<type fullname="Door" preserve="nothing"/>
 		<type fullname="Eraser" preserve="nothing"/>
 		<type fullname="Laptop" preserve="nothing"/>
+		<type fullname="LittleBoy" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Experimental.UI.AxisSlider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Experimental.UI.CapsLockHighlight" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Experimental.UI.KeyboardKeyFunc" preserve="nothing"/>

@@ -428,6 +428,7 @@
 "Assets/Scripts/Blackboard.cs"
 "Assets/Scripts/ColorGamelogic.cs"
 "Assets/Scripts/DetachObjects.cs"
+"Assets/Scripts/LittleBoy.cs"
 "Assets/Scripts/Objects/Apple.cs"
 "Assets/Scripts/Objects/Backpack.cs"
 "Assets/Scripts/Objects/Banane.cs"
