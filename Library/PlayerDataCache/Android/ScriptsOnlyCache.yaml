@@ -90,8 +90,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -142,7 +140,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
@@ -469,6 +466,12 @@ ScriptsOnlyBuild:
     fullTypeName: Notebook
     methodName: CloseSpanishNotebookText
   - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: ShowSpanishNotebookText
   - assembly: Assembly-CSharp
@@ -480,12 +483,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: CloseSpanishNotebookText
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
   - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: ShowSpanishLaptopText
   - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: CloseSpanishLaptopText
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
   - assembly: Assembly-CSharp
     fullTypeName: Bottle
     methodName: ShowSpanishBottleText
@@ -610,6 +622,9 @@ ScriptsOnlyBuild:
     fullTypeName: Calculator
     methodName: CloseSpanishCalculatorText
   - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
     fullTypeName: Colors
     methodName: ShowWhite
   - assembly: Assembly-CSharp
@@ -640,11 +655,17 @@ ScriptsOnlyBuild:
     fullTypeName: Pen
     methodName: CloseSpanishPenText
   - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: startConvo
+  - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: ShowSpanishLaptopText
   - assembly: Assembly-CSharp
     fullTypeName: Laptop
     methodName: CloseSpanishLaptopText
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
   - assembly: Assembly-CSharp
     fullTypeName: Eraser
     methodName: ShowSpanishEraserText
@@ -766,6 +787,9 @@ ScriptsOnlyBuild:
     fullTypeName: Pen
     methodName: CloseSpanishPenText
   - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
     fullTypeName: Calculator
     methodName: ShowSpanishCalculatorText
   - assembly: Assembly-CSharp
@@ -801,6 +825,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Painting
     methodName: CloseSpanishPaintingText
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
   - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: ShowSpanishNotebookText
@@ -868,6 +895,9 @@ ScriptsOnlyBuild:
     fullTypeName: Eraser
     methodName: CloseSpanishEraserText
   - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
     fullTypeName: Apple
     methodName: ShowSpanishAppleText
   - assembly: Assembly-CSharp
@@ -898,6 +928,9 @@ ScriptsOnlyBuild:
     fullTypeName: Colors
     methodName: CloseGreen
   - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
     fullTypeName: Scissors
     methodName: ShowSpanishScissorsText
   - assembly: Assembly-CSharp
@@ -921,6 +954,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Calculator
     methodName: CloseSpanishCalculatorText
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
   - assembly: Assembly-CSharp
     fullTypeName: Mirror
     methodName: ShowSpanishMirrorText
@@ -1015,6 +1051,12 @@ ScriptsOnlyBuild:
     fullTypeName: Bottle
     methodName: CloseSpanishBottleText
   - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
+  - assembly: Assembly-CSharp
     fullTypeName: Book
     methodName: ShowSpanishBookText
   - assembly: Assembly-CSharp
@@ -1026,6 +1068,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Book
     methodName: CloseSpanishBookText
+  - assembly: Assembly-CSharp
+    fullTypeName: LittleBoy
+    methodName: checkAnswer
   - assembly: Assembly-CSharp
     fullTypeName: Notebook
     methodName: ShowSpanishNotebookText
@@ -2850,7 +2895,7 @@ ScriptsOnlyBuild:
     className: UnityOnToggleValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 39a6a51fab545a5c65ddb1e09833ce27
+      Hash: ef86d6012812e55cd841d58d4debedc6
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LittleBoy
